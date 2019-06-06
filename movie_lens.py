@@ -1,4 +1,3 @@
-import os
 from trie import trie_node
 
 def ids_trie(data_path):
