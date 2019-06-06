@@ -33,16 +33,15 @@ class trie_node(object):
         return node.data
 
 
-
-
-
 if __name__ == '__main__':
     print('Hewoooooow 0w0')
     names = trie_node()
     names.add_data('batata',22)
     names.add_data('baiacu',71)
     names.add_data('baiana',38)
+    names.add_data('cenoura', 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH')
     print(names.get_data('batata'))
     print(names.get_data('baiana'))
     print(names.get_data('balada'))
     print(names.get_data('baiacu'))
+    print(names.get_data('cenoura'))
